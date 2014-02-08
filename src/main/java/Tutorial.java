@@ -33,7 +33,7 @@ public class Tutorial {
         Session session = currentUser.getSession();
         session.setAttribute("someKey", "aValue");
         String value = (String) session.getAttribute("someKey");
-        if ("avalue".equals(value)) {
+        if ("aValue".equals(value)) {
             log.info("Retrieve the correct value [" + value + "]");
         }
 
